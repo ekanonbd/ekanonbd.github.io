@@ -1,6 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Source Sans Pro', sans-serif;
   /* Show it is fixed to the top */
-  padding-top: 4.5rem;
+  padding-top: 3rem;
   padding-bottom: 3.5rem;
+  color: #00242C;
+}
+
+.logo-bg{
+  color: #00242C;
+}
+
+.logo-text{
+  color: #81E291;
+}
+
+.theme-navbar-s{
+  background: #00242C !important;
+  color: #81E291 !important;
+}
+
+.theme-icon{
+  color: #00242C;
+}
+
+.cover{
+  background-image: url("../img/default.svg");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: currentcolor;
+}
+
+
+.parallax{
+  /* Create the parallax scrolling effect */
+  height: 300px;
+  max-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.green-1{
+  background-image: url("../img/home.jpg");
+}
+
+.red-1{
+  background-image: url("../img/tomato.jpg");
 }
